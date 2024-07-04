@@ -4,14 +4,19 @@ body {
     background-color: rgb(236, 236, 236);
 }
 .botoes-cabecalho {
+    border-radius: 50px;
     background-color: white;
+    display: flex;
+    justify-content: center;
 }
 .btn-topico {
+    font-weight: bold;
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
     text-transform: uppercase;
     cursor: pointer;
     border: none;
     width: 150px;
     height: 50px;
-    justify-content: center;
-    align-items: center;
 }

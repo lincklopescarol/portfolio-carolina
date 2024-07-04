@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(236, 236, 236);
+}
+.botoes-cabecalho {
+    background-color: white;
+}
+.btn-topico {
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}

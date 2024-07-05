@@ -1,15 +1,17 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(236, 236, 236);
+    background-color: #703D57;
 }
 .botoes-cabecalho {
+    margin: 50px 30px 50px 30px;
     border-radius: 50px;
     background-color: white;
     display: flex;
     justify-content: center;
 }
 .btn-topico {
+    color: #703D57;
     font-weight: bold;
     background-color: white;
     margin: 0 10px;
@@ -19,4 +21,19 @@ body {
     border: none;
     width: 150px;
     height: 50px;
+}
+.textos {
+    margin: 50px;
+    color: #ffffff;
+}
+footer {
+    font-size: 18px;
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    position: fixed;
+    color: #ffffff;
+    background-color: #D9B8C4;
+    display: flex;
+    justify-content: center;
 }

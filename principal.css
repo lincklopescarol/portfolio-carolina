@@ -20,14 +20,16 @@ body {
     cursor: pointer;
     border: none;
     width: 150px;
-    height: 50px;
+    height: 30px;
+    border-radius: 10px;
 }
 .textos {
     margin: 50px;
     color: #ffffff;
 }
+
 footer {
-    font-size: 18px;
+    font-size: 20PX;
     position: absolute; 
     bottom: 0; 
     width: 100%;

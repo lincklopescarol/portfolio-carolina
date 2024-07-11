@@ -2,6 +2,23 @@ body {
     padding: 0;
     margin: 0;
     background-color: #703D57;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.conteudo {
+    margin-bottom: 50px;
+}
+.container {
+    display: flex;
+    height: 100%;
+}
+.esquerda, .direita {
+   flex: 1;
+   padding: 20px;
+}
+img {
+    width: 80%;
 }
 .botoes-cabecalho {
     margin: 50px 30px 50px 30px;
@@ -33,7 +50,6 @@ footer {
     position: absolute; 
     bottom: 0; 
     width: 100%;
-    position: fixed;
     color: #ffffff;
     background-color: #D9B8C4;
     display: flex;

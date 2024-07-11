@@ -5,6 +5,7 @@ body {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    font-family: 'Nunito';
 }
 .conteudo {
     margin-bottom: 50px;
@@ -37,8 +38,8 @@ img {
     cursor: pointer;
     border: none;
     width: 150px;
-    height: 30px;
     border-radius: 10px;
+    text-decoration: none;
 }
 .textos {
     margin: 50px;

@@ -52,19 +52,3 @@ img {
     border-radius: 10px;
     text-decoration: none;
 }
-
-.textos {
-    margin: 50px;
-    color: #ffffff;
-}
-
-footer {
-    font-size: 20PX;
-    position: absolute; 
-    bottom: 0; 
-    width: 100%;
-    color: #ffffff;
-    background-color: #D9B8C4;
-    display: flex;
-    justify-content: center;
-}

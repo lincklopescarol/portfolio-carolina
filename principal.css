@@ -6,7 +6,6 @@ body {
     padding: 0;
     margin: 0;
     background-color: #703D57;
-    display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     font-family: 'Nunito';
@@ -62,16 +61,6 @@ img {
     color: #ffffff;
 }
 
-footer {
-    font-size: 20PX;
-    position: absolute; 
-    bottom: 0; 
-    width: 100%;
-    color: #ffffff;
-    background-color: #D9B8C4;
-    display: flex;
-    justify-content: center;
-}
 form {
     margin: 20px 0px 0px 50px;
     display: block;
@@ -83,18 +72,32 @@ form {
     display: block;
     margin-bottom: 10px;
   }
+
   input {
+    border: none;
     height: 50px;
-    width: 300px;
+    width: 450px;
     border-radius: 10px;
   }
+
 label {
     color: white;
 }
+
 button {
     border-radius: 5px;
     background-color: white;
     height: 30px;
     width: 80px;
     font-weight: bold;
+    border: none;
+}
+
+a {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #703D57;
 }

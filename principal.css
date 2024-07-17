@@ -68,3 +68,29 @@ footer {
     display: flex;
     justify-content: center;
 }
+form {
+    margin: 100px;
+    display: block;
+  }
+
+  label,
+  input,
+  button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+  }
+label {
+    color: white;
+}
+button {
+    border-radius: 5px;
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+}

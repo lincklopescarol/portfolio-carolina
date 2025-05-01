@@ -1,18 +1,35 @@
-html {
-    scroll-behavior: smooth;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
 }
 
 body {
     padding: 0;
     margin: 0;
-    background-color: #703D57;
+    background-color: #2F3645;
     justify-content: space-between;
     box-sizing: border-box;
     font-family: 'Nunito';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
 }
 
 .textos {
-    font-size: 20px
+    font-size: 20px;
+    margin: 50px;
+    color: #EEEDEB;
 }
 
 .conteudo {
@@ -24,9 +41,10 @@ body {
     height: 100%;
 }
 
-.esquerda, .direita {
-   flex: 1;
-   padding: 20px;
+.esquerda,
+.direita {
+    flex: 1;
+    padding: 20px;
 }
 
 img {
@@ -43,7 +61,7 @@ img {
 }
 
 .btn-topico {
-    color: #703D57;
+    color: #4F6D7A;
     font-weight: bold;
     background-color: white;
     margin: 0 10px;
@@ -56,29 +74,24 @@ img {
     text-decoration: none;
 }
 
-.textos {
-    margin: 50px;
-    color: #ffffff;
-}
-
 form {
     margin: 20px 0px 0px 50px;
     display: block;
-  }
+}
 
-  label,
-  input,
-  button {
+label,
+input,
+button {
     display: block;
     margin-bottom: 10px;
-  }
+}
 
-  input {
+input {
     border: none;
     height: 50px;
     width: 450px;
     border-radius: 10px;
-  }
+}
 
 label {
     color: white;
@@ -100,4 +113,10 @@ a {
     background-color: #ffffff;
     text-decoration: none;
     color: #703D57;
+}
+
+footer {
+    background: #f0f0f0;
+    padding: 15px;
+    text-align: center;
 }

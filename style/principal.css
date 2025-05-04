@@ -12,7 +12,7 @@ body {
 body {
     padding: 0;
     margin: 0;
-    background-color: #2F3645;
+    background-color: #222222;
     justify-content: space-between;
     box-sizing: border-box;
     font-family: 'Nunito';
@@ -29,7 +29,7 @@ main {
 .textos {
     font-size: 20px;
     margin: 50px;
-    color: #EEEDEB;
+    color: #c6acdb;
 }
 
 .conteudo {
@@ -38,32 +38,23 @@ main {
 
 .container {
     display: flex;
+    justify-content: center;
     height: 100%;
-}
-
-.esquerda,
-.direita {
-    flex: 1;
-    padding: 20px;
-}
-
-img {
-    width: 80%;
 }
 
 .botoes-cabecalho {
     margin: 50px 30px 50px 30px;
     border-radius: 50px;
-    background-color: white;
+    background-color: #c6acdb;
     display: flex;
     justify-content: center;
     font-size: 18px;
 }
 
 .btn-topico {
-    color: #4F6D7A;
+    color: #222222;
     font-weight: bold;
-    background-color: white;
+    background-color: #c6acdb;
     margin: 0 10px;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -72,6 +63,15 @@ img {
     width: 150px;
     border-radius: 10px;
     text-decoration: none;
+    transition: font-size 0.3s ease;
+}
+
+.btn-topico:hover{
+    font-size: 20px;
+}
+
+img {
+    border-radius: 50%;
 }
 
 form {
@@ -110,13 +110,13 @@ a {
     font-weight: bold;
     padding: 10px;
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: #000000;
     text-decoration: none;
     color: #703D57;
 }
 
 footer {
-    background: #f0f0f0;
+    background: #c6acdb;
     padding: 15px;
     text-align: center;
 }

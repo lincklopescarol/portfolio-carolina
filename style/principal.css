@@ -17,9 +17,9 @@ body {
 }
 
 header {
-  top: 0;
-  position: fixed;
-  width: 100%;
+    top: 0;
+    position: fixed;
+    width: 100%;
 }
 
 section {
@@ -33,9 +33,12 @@ section {
 }
 
 .textos {
-    font-size: 20px;
-    margin: 50px;
+    margin: 110px 50px 0 50px;
     color: #c6acdb;
+}
+
+.software-developer {
+    color: #ffffff;
 }
 
 .conteudo {
@@ -46,17 +49,19 @@ section {
     margin: 0px 50px 0px 50px;
 }
 
-.terminal-box { 
+.terminal-box {
     font-size: 25px;
     font-family: 'Courier New', monospace;
     background-color: #111;
     color: #c6acdb;
     padding: 20px;
-    border: 2px solid #c6acdb;;
+    border: 2px solid #c6acdb;
+    ;
     border-radius: 10px;
     width: fit-content;
     margin: 100px auto 0 auto;
-    box-shadow: 0 0 10px #c6acdb;;
+    box-shadow: 0 0 10px #c6acdb;
+    ;
 }
 
 
@@ -125,10 +130,11 @@ table {
 }
 
 thead {
-    background-color: #c6acdb; 
+    background-color: #c6acdb;
 }
 
-th, td {
+th,
+td {
     padding: 15px;
     text-align: left;
 }
@@ -146,6 +152,39 @@ td {
 tr:hover {
     background-color: #555;
     transition: 0.3s;
+}
+
+.titulo-contato {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.icones-contatos {
+    display: flex;
+    margin: 75px 120px 0 120px;
+}
+
+.github {
+    color: #c6acdb;
+    margin-right: 50px;
+}
+
+.linkedin {
+    color: #c6acdb;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+a img {
+    transition: transform 0.3s ease;
+}
+
+a:hover img {
+    transform: scale(1.1);
 }
 
 footer {

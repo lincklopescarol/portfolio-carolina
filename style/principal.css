@@ -155,23 +155,6 @@ tr:hover {
     transition: 0.3s;
 }
 
-.titulo-projetos {
-    display: flex;
-    justify-content: center;
-}
-
-.titulos-projetos {
-    color: #c6acdb;
-}
-
-.projetos-backend {
-    margin: 180px 100px 0 70px;
-}
-
-.projetos-frontend {
-    margin: 40px 100px 0 0;
-}
-
 .titulo-contato {
     display: flex;
     justify-content: center;

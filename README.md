@@ -1,10 +1,8 @@
-## ⚠️ [Em atualização] 
+# Hello, world! 🌎
 
-# Olá, mundo! 🎉
+This is my portfolio! Welcome!  
+I'm Carolina, a software developer and Software Engineering student.
 
-Esse é o meu portfólio!
-
-# Tecnologias utilizadas
+# Tech Stack 🖥️
 - HTML
 - CSS
-- Visual Studio Code

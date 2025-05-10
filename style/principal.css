@@ -9,6 +9,8 @@ body {
     height: 100%;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -56,12 +58,10 @@ section {
     color: #c6acdb;
     padding: 20px;
     border: 2px solid #c6acdb;
-    ;
     border-radius: 10px;
     width: fit-content;
     margin: 100px auto 0 auto;
     box-shadow: 0 0 10px #c6acdb;
-    ;
 }
 
 
@@ -120,6 +120,7 @@ button {
 }
 
 table {
+    box-shadow: 0 0 10px #c6acdb;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;

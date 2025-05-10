@@ -16,10 +16,10 @@
 
   <header>
     <div class="botoes-cabecalho">
-      <a href="sobre.html" target="_blank" class="btn-topico">About</a>
-      <a href="formacao.html" target="_blank" class="btn-topico">Education</a>
-      <a href="projetos.html" target="_blank" class="btn-topico">Projects</a>
-      <a href="contato.html" target="_blank" class="btn-topico">Contact</a>
+      <a href="#about" class="btn-topico">About</a>
+      <a href="#education" class="btn-topico">Education</a>
+      <a href="#projects" class="btn-topico">Projects</a>
+      <a href="#contacts" class="btn-topico">Contact</a>
     </div>
   </header>
 
@@ -36,12 +36,13 @@
             <h4>Here you’ll find information about me and my projects. Welcome!</h3>
               </h1>
               <div class="btns-home">
-                <button class="btn-home">PROJECTS</button>
-                <button class="btn-home">CONTACT</button>
+                <button onclick="location.href='#projects'" class="btn-home">PROJECTS
+                </button>
+                <button onclick="location.href='#contacts'" class="btn-home">CONTACT</button>
               </div>
           </div>
         </section>
-        <section class="about">
+        <section id="about">
           <div class="terminal-box">
             <code>
                 carolina@portfolio:~$ about <br>
@@ -58,7 +59,7 @@
               </code>
           </div>
         </section>
-        <section class="about">
+        <section id="education">
           <table>
             <thead>
               <tr>
@@ -90,7 +91,7 @@
           </table>
         </section>
 
-        <section class="about">
+        <section id="projects">
           <div class="projetos-backend">
             <h3 class="titulos-projetos">Back-end</h3>
             <br>
@@ -131,7 +132,7 @@
           </div>
         </section>
 
-        <section class="about">
+        <section id="contacts">
 
           <div class="contatos">
             <div class="titulo-contato">

@@ -34,7 +34,7 @@ section {
     height: calc(100vh - 90px);
 }
 
-.textos {
+.texts {
     margin: 110px 50px 0 50px;
     color: #c6acdb;
 }
@@ -43,29 +43,11 @@ section {
     color: #ffffff;
 }
 
-.conteudo {
+.content {
     margin-bottom: 50px;
 }
 
-.conteudo-esquerda {
-    margin: 0px 50px 0px 50px;
-}
-
-.terminal-box {
-    font-size: 25px;
-    font-family: 'Courier New', monospace;
-    background-color: #111;
-    color: #c6acdb;
-    padding: 20px;
-    border: 2px solid #c6acdb;
-    border-radius: 10px;
-    width: fit-content;
-    margin: 100px auto 0 auto;
-    box-shadow: 0 0 10px #c6acdb;
-}
-
-
-.botoes-cabecalho {
+.btns-header {
     margin: 50px 30px 50px 30px;
     border-radius: 50px;
     background-color: #c6acdb;
@@ -74,7 +56,7 @@ section {
     font-size: 18px;
 }
 
-.btn-topico {
+.btn-topic {
     color: #222222;
     font-weight: bold;
     background-color: #c6acdb;
@@ -119,6 +101,19 @@ button {
     display: flex;
 }
 
+.terminal-box {
+    font-size: 25px;
+    font-family: 'Courier New', monospace;
+    background-color: #111;
+    color: #c6acdb;
+    padding: 20px;
+    border: 2px solid #c6acdb;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 100px auto 0 auto;
+    box-shadow: 0 0 10px #c6acdb;
+}
+
 table {
     box-shadow: 0 0 10px #c6acdb;
     width: 100%;
@@ -155,13 +150,13 @@ tr:hover {
     transition: 0.3s;
 }
 
-.titulo-contato {
+.title-contact {
     display: flex;
     justify-content: center;
     margin-top: 60px;
 }
 
-.icones-contatos {
+.icon-contact {
     display: flex;
     margin: 75px 120px 0 120px;
 }
